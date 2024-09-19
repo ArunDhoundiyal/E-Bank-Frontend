@@ -1,0 +1,83 @@
+.home-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #152850;
+    background-size: cover;
+    font-family: 'Roboto';
+    height: 100vh;
+  }
+  
+  .home-header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .logout-button {
+    border: solid 1px #e0eefe;
+    background-color: transparent;
+    color: #e0eefe;
+    height: 50px;
+    font-size: 20px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .digital-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .digital-card-heading {
+    color: #e0eefe;
+    text-align: center;
+  }
+  @media screen and (max-width: 800px) {
+    .digital-card-img {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .digital-card-heading {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .digital-card-heading {
+      font-size: 20px;
+    }
+    .logout-button {
+      border: solid 1px #e0eefe;
+      background-color: transparent;
+      color: #e0eefe;
+      height: 35px;
+      font-size: 15px;
+      width: 100px;
+    }
+    .bank-logo-img {
+      height: 30px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .digital-card-heading {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .logout-button {
+      height: 40px;
+      font-size: 15px;
+      width: 80px;
+    }
+  }

@@ -1,0 +1,126 @@
+.login-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Roboto';
+    background-color: #152850;
+  }
+  .login-card-container {
+    height: 80vh;
+    background-color: #ffffff;
+    width: 90vw;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .img-logo-login-card-container {
+    background-color: #e0eefe;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: #c3cad9;
+  }
+  .user-login-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome-back-heading {
+    color: #183b56;
+  }
+  .userId-style {
+    color: #152850;
+    font-weight: bold;
+    width: 80%;
+  }
+  .userPin-style {
+    color: #152850;
+    font-weight: bold;
+    width: 80%;
+  }
+  
+  .input-field {
+    width: 100%;
+    background-size: cover;
+    height: 50px;
+    border: solid 1px darkgray;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 12px;
+    font-size: 15px;
+  }
+  
+  .login-button-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-button {
+    height: 50px;
+    color: #ffffff;
+    background-color: #1565d8;
+    font-family: 'Roboto';
+    font-weight: bold;
+    border: solid 0px;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .login-img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .login-card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .img-logo-login-card-container {
+      width: 100%;
+      height: 40%;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      border-bottom-left-radius: 0px;
+    }
+    .user-login-container {
+      width: 100%;
+      height: 60%;
+    }
+    .login-img {
+      width: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .login-img {
+      width: 200px;
+    }
+    .input-field {
+      height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .welcome-back-heading {
+      font-size: 20px;
+    }
+  }
+  .error-msg {
+    color: #ff0b37;
+    font-weight: bold;
+  }
